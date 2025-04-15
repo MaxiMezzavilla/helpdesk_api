@@ -1,12 +1,14 @@
 {
     'name': 'Helpdesk API',
     'version': '17.0.0.0.1',
-    'category': 'Helpdesk',
-    'description': 'API REST para crear tickets en el módulo Helpdesk.',
+    'description': 'Modulo api para crear Tiquets de mesa de ayuda',
+    'summary': '',
     'author': 'DevMan - MaxiMezzavilla',
     'website': '',
+    'license': 'LGPL-3',
+    'category': '',
     'depends': ['helpdesk'],
-    'data': [],
+    'auto_install': False,
+    'application': False,
     'installable': True,
-    'application': True,
 }
